@@ -1,1 +1,3 @@
-# Wildbirds-interaction-network-Theory
+# Network of interaction between wild birds over a span of 6 days
+
+The aim of this project is to do a network analysis on the dataset on wild birds interaction which is collected over 6 days. The dataset is an edge list which gives us the edges in the birds graph that we are going to analyze. The first two columns represent the birds’ names or numbers and their interaction with each other. We also have a weightage on our edges with a third column as half weighted index. The weight basically shows how strong the interaction/edge strength is between the birds. Higher the half weight index, higher is the time of interaction between birds. The fourth column represents the day of the week and it is a numerical number ranges between 1 and 6. Later in the analysis, we split the data by making subsets of the whole graph to analyze the interactions over each day separately.
